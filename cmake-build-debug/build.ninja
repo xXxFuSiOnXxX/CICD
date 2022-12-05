@@ -61,6 +61,12 @@ build CMakeFiles/GIT.dir/Tests.cpp.obj: CXX_COMPILER__GIT_Debug C$:/Users/danya/
   OBJECT_DIR = CMakeFiles\GIT.dir
   OBJECT_FILE_DIR = CMakeFiles\GIT.dir
 
+build CMakeFiles/GIT.dir/for_func.cpp.obj: CXX_COMPILER__GIT_Debug C$:/Users/danya/Desktop/GIT/for_func.cpp || cmake_object_order_depends_target_GIT
+  DEP_FILE = CMakeFiles\GIT.dir\for_func.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\GIT.dir
+  OBJECT_FILE_DIR = CMakeFiles\GIT.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target GIT
@@ -69,7 +75,7 @@ build CMakeFiles/GIT.dir/Tests.cpp.obj: CXX_COMPILER__GIT_Debug C$:/Users/danya/
 #############################################
 # Link the executable GIT.exe
 
-build GIT.exe: CXX_EXECUTABLE_LINKER__GIT_Debug CMakeFiles/GIT.dir/main.cpp.obj CMakeFiles/GIT.dir/Tests.cpp.obj
+build GIT.exe: CXX_EXECUTABLE_LINKER__GIT_Debug CMakeFiles/GIT.dir/main.cpp.obj CMakeFiles/GIT.dir/Tests.cpp.obj CMakeFiles/GIT.dir/for_func.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\GIT.dir

@@ -3,4 +3,4 @@ project (GIT)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(GIT main.cpp Tests.cpp)
+add_executable(GIT main.cpp Tests.cpp for_func.h for_func.cpp)
