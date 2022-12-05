@@ -18,7 +18,7 @@ double divide(double a, double b) {
 void TestSum() {
     assert(sum(5, 7) == 12);
     assert(sum(-5, -7) == -12);
-    assert(sum(-2, 0) == -2);
+    assert(sum(-2, 0) == -2);п
     assert(sum(-5, 5) == 0);
     std::cout << "TestSum - OK" << '\n';
 }
